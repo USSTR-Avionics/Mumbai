@@ -1,0 +1,14 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 94c1fc38-b767-4e5c-a42d-1460afd00711)
+
+  (paper "A4")
+
+  (title_block
+    (company "By: Atharva Kulkarni")
+  )
+
+  (lib_symbols
+  )
+
+)
