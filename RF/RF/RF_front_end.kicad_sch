@@ -735,6 +735,11 @@
     (uuid fdd2087b-b078-49d3-8951-19fc9e1a009b)
   )
 
+  (text "Look at pg 4 of Datasheet for control logic truth table"
+    (at 56.896 61.976 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 610cee77-78a3-4805-bdb0-6eeedd49add6)
+  )
   (text "Nominal VAPC = \n2.25V @ 60 uA" (at 121.412 46.228 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 831cf179-0bc3-41bb-86b9-097a00ab9bf1)

@@ -426,9 +426,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid af60432e-61d1-4cc4-b46f-bbd7972f0772)
   )
-  (text "V1 -> TX\nV2 -> RX" (at 148.336 69.596 0)
+  (text "(Pin 1 (V2) = VDD and Pin 2 (V1) = High) => RFC to RF1\n(Pin 1 (V2) = VDD and Pin 2 (V1) = Low) => RFC to RF2\nPg 3 of datasheet"
+    (at 138.43 67.564 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b17f5d4e-afda-46ff-8e44-f90ab32630dc)
+    (uuid e55d1c83-a5d3-4a20-bcc4-4d8037f4960a)
   )
 
   (hierarchical_label "~{LST_RX_MODE}" (shape input) (at 85.598 80.518 180) (fields_autoplaced)
