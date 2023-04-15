@@ -346,6 +346,10 @@
     [
       "154d56d4-fd61-4d45-b865-639cc1ffef93",
       "Connectors"
+    ],
+    [
+      "df606c9c-d02e-48fa-b3a8-f4c2f6c9fac6",
+      "External Memory"
     ]
   ],
   "text_variables": {}
