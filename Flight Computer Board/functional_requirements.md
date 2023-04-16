@@ -10,7 +10,7 @@ technologies to avoid tampering with the data.
 ## Materials
 - microcontroller
     - STM32F205RBT6 
-    - debug/ program pins
+    - debug/ program pins (should be programmable via USB)
 
 - attitude sensors
     - accelerometer
@@ -21,7 +21,7 @@ technologies to avoid tampering with the data.
 - IO peripherals
     - multi-colour LED arrays
     - buzzer
-    - FRAM
+    - external memory (try to use the same chips as the RF board)
 
 - communication
     - CAN transceiver
