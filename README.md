@@ -18,3 +18,6 @@ Pinout
 (left to right, topview)
 
 [hard to flip header](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/SFH11-PBPC-D10-ST-BK/1990090)
+
+## PCB Dimensions Drawing
+<img src="https://raw.githubusercontent.com/USSTR-Avionics/Mumbai/master/assets/mumbai_pcb_dimensions.png"/>
