@@ -17,4 +17,4 @@ Pinout
 
 (left to right, topview)
 
-[non-reversible header](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/SFH11-PBPC-D10-ST-BK/1990090)
+[hard to flip header](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/SFH11-PBPC-D10-ST-BK/1990090)
