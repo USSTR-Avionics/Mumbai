@@ -13,7 +13,8 @@ Pinout
 |  | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **A** | GND | 3V3 |GND | 3V3 | GND | 5V | GND | 5V | GND | Bus voltage | 
-| **B** | GND | CAN high | CAN low | GND | GPIO | GPIO | GPIO | GPIO | GPIO  | GPIO 
+| **B** | GND | CAN high | CAN low | GND | GPIO | GPIO | GPIO | GPIO | GPIO  | GPIO  
+
 (left to right, topview)
 
 [non-reversible header](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/SFH11-PBPC-D10-ST-BK/1990090)
