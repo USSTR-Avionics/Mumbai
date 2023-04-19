@@ -1,0 +1,54 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6329504b-76b6-427a-ac8a-cf2bf8f3dc9d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 185.42 76.2) (size 12.7 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8fe2a45c-19ae-4da8-b145-253b0736d747)
+    (property "Sheetname" "SUCK" (at 185.42 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "suck.kicad_sch" (at 185.42 104.7246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 185.42 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "FlightDeck_a"
+        (path "/6329504b-76b6-427a-ac8a-cf2bf8f3dc9d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 127 67.31) (size 33.02 49.53) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bd38901b-51bd-4b99-b978-a965f53b24ed)
+    (property "Sheetname" "Microcontroller" (at 127 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller.kicad_sch" (at 127 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 127 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "FlightDeck_a"
+        (path "/6329504b-76b6-427a-ac8a-cf2bf8f3dc9d" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

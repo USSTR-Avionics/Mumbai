@@ -9,7 +9,7 @@ technologies to avoid tampering with the data.
 
 ## Materials
 - microcontroller
-    - STM32F205RBT6 
+    - STM32F405RGT6
     - debug/ program pins (should be programmable via USB)
 
 - attitude sensors
