@@ -1228,7 +1228,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 160299ae-65c3-462e-92eb-ce192a204372)
   )
-  (text "Remove Jumper resistor to pull RESET_N LOW\n\n" (at 204.216 59.182 0)
+  (text "Remove Jumper to pull RESET_N LOW\n\n" (at 204.216 59.182 0)
     (effects (font (face "KiCad Font") (size 1.27 1.27)) (justify left bottom))
     (uuid 2a00569b-6b18-483a-8ad9-83d68611175a)
   )
