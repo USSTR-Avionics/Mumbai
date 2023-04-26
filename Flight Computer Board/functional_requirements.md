@@ -7,24 +7,69 @@ technologies to avoid tampering with the data.
 
 # Functional Requirements
 
-## Materials
+- Acceleration detection
+- Altitude detection
+- Orientation detection
+- Interact with external servos or pyros
+- Log flight data and access it later
+- IO peripherals (led and buzzer)
+
+# Materials
 - microcontroller
     - STM32F405RGT6
     - debug/ program pins (should be programmable via USB)
 
 - attitude sensors
     - accelerometer
-    - gyroscope
-    - magnetometer
+        - 3x acceleration chips to ensure RADI1-like redundancy
+        - one on each axis
+        - KX134
+
     - barometer
+        - 2x barometer chips to ensure RADI1-like redundancy
+        - only relative altitude matters, so 2 should be enough
+        - BMP390
+
+    - gyroscope
+        - 3x gyroscope chips to ensure RADI1-like redundancyone on each axis
+        - one on each axis
+        - LSM6DSOX
+
+    - magnetometer
+        - 3x magnetometer chips to ensure RADI1-like redundancy
+
+    - IMU
+        - 3x LSM6DS3
+        - this serves as additional backup for all other sensors, in case of a catastrophic failure
 
 - IO peripherals
-    - multi-colour LED arrays
-    - buzzer
-    - external memory (try to use the same chips as the RF board)
+    - multi-colour LED arrays (smd leds)
+        - 3x tri-color LEDs
+        - 27 possible signals
+        - 150060AS75000 
+
+    - power LED
+        - orange LED
+        - 150060AS75000 
+        - indicated microcontroller is powered on
+
+    - buzzer (through hole buzzer)
+        - PKHPS0013E4000-A2
+
+    - memory
+        - 2x 2MBit FRAM chip
+        - MB85RS2MTY
+
+    - MOSFETs
+        - N channel transistors
+        - to control things like parachute deploy and/or landing legs
 
 - communication
-    - CAN transceiver
+    - CAN transceiver (in-built on the microcontroller)
+
+- miscellaneous
+    - battery terminal
+    - kill and arm switch terminal
 
 # Non-functional Requirements
 
