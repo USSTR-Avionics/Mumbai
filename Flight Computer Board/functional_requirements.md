@@ -7,6 +7,20 @@ technologies to avoid tampering with the data.
 
 # Functional Requirements
 
+It should be able to transition between states
+It should be able to detect apogee and trigger parachute deployment
+It should be able to detect it's apogee and attitude
+It should communicate with other boards over the CAN bus
+It should log all of it's data on the onboard FRAM chip and dump it over the serial monitor in a csv format
+It should have pins, micro-usb connector to program it easily
+It should have a battery terminal that acts like a physical switch requiring a wire to connect the battery and arm the board
+It should have LEDs and buzzers for visual debugging
+It shall have all the functionality to do guidance and control, including TVC and Fin actuation
+It shall have a backup IMU sensor for ultimate sensor redundancy
+
+
+# Overview of functionality
+
 - Acceleration detection
 - Altitude detection
 - Orientation detection
@@ -71,13 +85,6 @@ technologies to avoid tampering with the data.
     - battery terminal
     - kill and arm switch terminal
 
-# Non-functional Requirements
-
-- sensor redundancy
-    - accelerometer
-    - gyroscope
-    - magnetometer
-    - barometer
 
 # Assumptions and Dependencies
 
