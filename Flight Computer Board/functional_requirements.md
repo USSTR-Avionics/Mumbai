@@ -55,9 +55,8 @@ It shall have sensor redundancy
 
 - IO peripherals
     - multi-colour LED arrays (smd leds)
-        - 3x tri-color LEDs
-        - 27 possible signals
-        - 150060AS75000 
+        - 3x mult-colour LEDs
+        - WS2812B (HFR uses them and they're amazing)
 
     - power LED
         - orange LED
