@@ -1,2 +1,0 @@
-- NRST pulled low, reset the uc, contains internal pullup resistor
-    - maybe attach an external switch

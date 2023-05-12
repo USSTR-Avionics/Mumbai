@@ -7,6 +7,17 @@ technologies to avoid tampering with the data.
 
 # Functional Requirements
 
+It shall do transition between states
+It shall be able to trigger a recovery system
+It shall communicate with other boards
+It shall log data
+It shall be programmable
+It shall have things for easily debugging
+It shall have sensor redundancy
+
+
+# Overview of functionality
+
 - Acceleration detection
 - Altitude detection
 - Orientation detection
@@ -44,9 +55,8 @@ technologies to avoid tampering with the data.
 
 - IO peripherals
     - multi-colour LED arrays (smd leds)
-        - 3x tri-color LEDs
-        - 27 possible signals
-        - 150060AS75000 
+        - 3x mult-colour LEDs
+        - WS2812B (HFR uses them and they're amazing)
 
     - power LED
         - orange LED
@@ -71,13 +81,6 @@ technologies to avoid tampering with the data.
     - battery terminal
     - kill and arm switch terminal
 
-# Non-functional Requirements
-
-- sensor redundancy
-    - accelerometer
-    - gyroscope
-    - magnetometer
-    - barometer
 
 # Assumptions and Dependencies
 
