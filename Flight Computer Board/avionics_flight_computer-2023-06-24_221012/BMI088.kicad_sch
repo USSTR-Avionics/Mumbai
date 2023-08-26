@@ -166,7 +166,7 @@
     (pin "8" (uuid f72547b3-8db1-49fa-8dc8-6f090705384b))
     (pin "9" (uuid 5bb73f3f-619e-4ee1-8be4-8282b7c14cf8))
     (instances
-      (project "avionics_flight_computer"
+      (project "_autosave-avionics_flight_computerreal"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/66c432f3-4350-4e27-8d50-e2249ac172ba"
           (reference "U5") (unit 1)
         )

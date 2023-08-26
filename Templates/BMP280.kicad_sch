@@ -336,7 +336,7 @@
     )
     (pin "1" (uuid 5df4dac9-0831-456f-98fc-3b229db62e22))
     (instances
-      (project "_autosave-avionics_flight_computerreal"
+      (project "avionics_flight_computer"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/69efb283-841e-4331-9a86-1fe2d1492264"
           (reference "#PWR025") (unit 1)
         )
@@ -362,7 +362,7 @@
     (pin "1" (uuid e6f41fb9-714b-4f4e-b1b5-458ebe9f2d6a))
     (pin "2" (uuid d4fde7ab-68ca-4917-a806-346ba109e903))
     (instances
-      (project "_autosave-avionics_flight_computerreal"
+      (project "avionics_flight_computer"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/69efb283-841e-4331-9a86-1fe2d1492264"
           (reference "C18") (unit 1)
         )
@@ -387,7 +387,7 @@
     )
     (pin "1" (uuid bbbddb28-6bd4-44fb-87c9-b26674fa24a6))
     (instances
-      (project "_autosave-avionics_flight_computerreal"
+      (project "avionics_flight_computer"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/69efb283-841e-4331-9a86-1fe2d1492264"
           (reference "#PWR024") (unit 1)
         )
@@ -412,7 +412,7 @@
     )
     (pin "1" (uuid 8ec0f978-226e-48d4-a203-c127bca2ecc4))
     (instances
-      (project "_autosave-avionics_flight_computerreal"
+      (project "avionics_flight_computer"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/69efb283-841e-4331-9a86-1fe2d1492264"
           (reference "#PWR023") (unit 1)
         )
@@ -438,7 +438,7 @@
     (pin "1" (uuid e2d32962-565b-4e10-a3ff-5719c1763138))
     (pin "2" (uuid 5516f888-e99b-4b31-8dd6-8cd3654ba06d))
     (instances
-      (project "_autosave-avionics_flight_computerreal"
+      (project "avionics_flight_computer"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/69efb283-841e-4331-9a86-1fe2d1492264"
           (reference "C17") (unit 1)
         )
@@ -470,7 +470,7 @@
     (pin "7" (uuid 74bd547c-9c32-4bd5-bd9b-4a6630117dd3))
     (pin "8" (uuid 23affc0b-ef9c-4009-921b-08cc7b89d478))
     (instances
-      (project "_autosave-avionics_flight_computerreal"
+      (project "avionics_flight_computer"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/69efb283-841e-4331-9a86-1fe2d1492264"
           (reference "U4") (unit 1)
         )
@@ -495,7 +495,7 @@
     )
     (pin "1" (uuid e261fd16-028f-411e-9f7b-070f4ba4e688))
     (instances
-      (project "_autosave-avionics_flight_computerreal"
+      (project "avionics_flight_computer"
         (path "/b1d299c5-d712-4abd-abfc-85bf9dc0241e/1d0982b1-a7f8-42e4-83d7-31334d6351d0"
           (reference "#PWR021") (unit 1)
         )
