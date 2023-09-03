@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LibraryLoader")(type "Legacy")(uri "C:/Users/Dylan Haussecker/Documents/KiCad/7.0/SamacSys_Parts.lib")(options "")(descr ""))
+  (lib (name "KX134-1211")(type "KiCad")(uri "C:/Users/Dylan Haussecker/Downloads/ul_KX134-1211/KiCADv6/2023-09-03_00-07-56.kicad_sym")(options "")(descr ""))
+)
