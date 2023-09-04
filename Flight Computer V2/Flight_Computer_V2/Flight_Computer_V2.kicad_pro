@@ -312,8 +312,18 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -329,19 +339,79 @@
     ],
     [
       "4a05f57f-ad7d-4317-b08f-5601038a99f3",
-      "STM32F405RGT6"
+      "MICROCONTROLLER"
     ],
     [
       "36f68de3-e25f-423d-b7f8-c15e88151435",
-      "MCP2562-E-SN"
+      "CAN CONTROLLER"
     ],
     [
       "cb37c924-4cb5-4f3b-a39d-3b8b1b5d4537",
-      "KX134-1211"
+      "ACCELROMETER"
     ],
     [
       "b1bb6dfd-0d07-44b6-b0d1-16713468007b",
-      "BMP280"
+      "BAROMETER"
+    ],
+    [
+      "d6ab23a2-9695-4d28-85c2-6c4fdfb23d5e",
+      "STATE_INDICATION"
+    ],
+    [
+      "728ff691-86aa-4406-a714-359017417c15",
+      "FRAM1"
+    ],
+    [
+      "de413d1f-8d39-42d8-b833-6419d9c73587",
+      "FRAM2"
+    ],
+    [
+      "806e3fbd-cca2-40cb-b727-86767e32e959",
+      "FRAM3"
+    ],
+    [
+      "5302a5ff-4c5a-40f5-8b82-1f5be512d366",
+      "FRAM4"
+    ],
+    [
+      "d063216e-e605-415c-b172-b63dbdfef200",
+      "IMU"
+    ],
+    [
+      "82e19a29-2001-4834-a54c-a35440bfa66f",
+      "MAGNETOMETER"
+    ],
+    [
+      "18b8eda5-ab3e-431c-bc45-74a94283215a",
+      "THERMOCOUPLE1"
+    ],
+    [
+      "0086c69d-5016-4195-8454-88154eb39554",
+      "Connector"
+    ],
+    [
+      "f3b0a203-efef-48d6-a96f-d80f6600821a",
+      "THERMOCOUPLE2"
+    ],
+    [
+      "5078b2de-7be2-47cd-a266-5bbcaff0544f",
+      "THERMOCOUPLE3"
+    ],
+    [
+      "cea5a790-cf79-44b4-a64b-a9c2141eca7e",
+      "4-20mA SIGNAL1"
+    ],
+    [
+      "890b1d37-7c08-4080-9f9c-650c5e05f400",
+      "4-20mA SIGNAL2"
+    ],
+    [
+      "9a670be6-a941-46a2-967f-f70de418761f",
+      "4-20mA SIGNAL3"
+    ],
+    [
+      "e9e572b1-004c-4b07-9e39-8243b1fc8584",
+      "4-20mA SIGNAL4"
     ]
   ],
   "text_variables": {}
