@@ -382,12 +382,12 @@
       "MAGNETOMETER"
     ],
     [
-      "18b8eda5-ab3e-431c-bc45-74a94283215a",
-      "THERMOCOUPLE1"
-    ],
-    [
       "0086c69d-5016-4195-8454-88154eb39554",
       "Connector"
+    ],
+    [
+      "18b8eda5-ab3e-431c-bc45-74a94283215a",
+      "THERMOCOUPLE1"
     ],
     [
       "f3b0a203-efef-48d6-a96f-d80f6600821a",
