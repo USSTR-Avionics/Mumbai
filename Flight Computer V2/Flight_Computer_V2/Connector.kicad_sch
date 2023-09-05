@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Avionics Flight Computer")
+    (date "2023-09-04")
+    (rev "1.0")
+    (company "By: Dylan Haussecker")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x26_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 33.02 0)
