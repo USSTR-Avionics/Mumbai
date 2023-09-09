@@ -529,7 +529,7 @@
     (property "Value" "TestPoint_Small" (at 104.14 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 100.33 90.17 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 100.33 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 90.17 0)
@@ -589,7 +589,7 @@
   (symbol (lib_id "power:+3.3V") (at 77.47 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73306e08-302f-4d7f-becb-0699552ee9a1)
-    (property "Reference" "#PWR019" (at 77.47 100.33 0)
+    (property "Reference" "#PWR0108" (at 77.47 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 77.47 91.44 0)
@@ -605,7 +605,7 @@
     (instances
       (project "Flight_Computer_V2"
         (path "/39d7ebb3-b69d-4ae9-8f55-c9acfe77d345/36f68de3-e25f-423d-b7f8-c15e88151435"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
       (project "avionics_flight_computer"
@@ -628,7 +628,7 @@
     (property "Value" "~" (at 100.33 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 100.33 91.44 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 100.33 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 91.44 0)
@@ -657,7 +657,7 @@
     (property "Value" "120" (at 156.21 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 151.892 95.25 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.892 95.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 95.25 0)
@@ -682,7 +682,7 @@
   (symbol (lib_id "power:GND") (at 132.08 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c493c3d-ddcb-4d03-a750-474a81241eb5)
-    (property "Reference" "#PWR020" (at 132.08 113.03 0)
+    (property "Reference" "#PWR0107" (at 132.08 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 110.49 0)
@@ -698,7 +698,7 @@
     (instances
       (project "Flight_Computer_V2"
         (path "/39d7ebb3-b69d-4ae9-8f55-c9acfe77d345/36f68de3-e25f-423d-b7f8-c15e88151435"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
       (project "avionics_flight_computer"
@@ -718,7 +718,7 @@
     (property "Value" "TestPoint_Small" (at 116.84 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 113.03 87.63 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 113.03 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 87.63 0)
@@ -746,7 +746,7 @@
     (property "Value" "~" (at 111.76 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 111.76 88.9 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 111.76 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 88.9 0)

@@ -459,7 +459,7 @@
     (property "Value" "TestPoint_Small" (at 109.22 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 105.41 99.06 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 105.41 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 99.06 0)
@@ -502,7 +502,7 @@
     (property "Value" "~" (at 104.14 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 104.14 100.33 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 104.14 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 100.33 0)
@@ -540,7 +540,7 @@
   (symbol (lib_id "power:GND") (at 168.91 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4692bb9f-74f3-4a68-b186-64d9daf3ceaa)
-    (property "Reference" "#PWR025" (at 168.91 107.95 0)
+    (property "Reference" "#PWR0111" (at 168.91 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 106.68 0)
@@ -556,7 +556,7 @@
     (instances
       (project "Flight_Computer_V2"
         (path "/39d7ebb3-b69d-4ae9-8f55-c9acfe77d345/b1bb6dfd-0d07-44b6-b0d1-16713468007b"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
       (project "avionics_flight_computer"
@@ -576,7 +576,7 @@
     (property "Value" "100nF" (at 180.34 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.4952 97.79 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 177.4952 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 93.98 0)
@@ -601,7 +601,7 @@
   (symbol (lib_id "power:GND") (at 130.81 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86222ab9-b894-43c7-af93-a44df2a6aa91)
-    (property "Reference" "#PWR024" (at 130.81 118.11 0)
+    (property "Reference" "#PWR0112" (at 130.81 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 116.84 0)
@@ -617,7 +617,7 @@
     (instances
       (project "Flight_Computer_V2"
         (path "/39d7ebb3-b69d-4ae9-8f55-c9acfe77d345/b1bb6dfd-0d07-44b6-b0d1-16713468007b"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
       (project "avionics_flight_computer"
@@ -631,7 +631,7 @@
   (symbol (lib_id "power:GND") (at 146.05 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90a8f7bd-80c7-4492-b1b7-fe493d8f96dd)
-    (property "Reference" "#PWR023" (at 146.05 121.92 0)
+    (property "Reference" "#PWR0110" (at 146.05 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 120.65 0)
@@ -647,7 +647,7 @@
     (instances
       (project "Flight_Computer_V2"
         (path "/39d7ebb3-b69d-4ae9-8f55-c9acfe77d345/b1bb6dfd-0d07-44b6-b0d1-16713468007b"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
       (project "avionics_flight_computer"
@@ -667,7 +667,7 @@
     (property "Value" "100nF" (at 167.64 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 164.7952 97.79 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 164.7952 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 93.98 0)
@@ -692,7 +692,7 @@
   (symbol (lib_id "Sensor_Pressure:BMP280") (at 146.05 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf9f045f-f1a4-42e2-ae37-188a74640e03)
-    (property "Reference" "U4" (at 152.4 102.87 0)
+    (property "Reference" "U44" (at 152.4 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BMP280" (at 152.4 105.41 0)
@@ -715,7 +715,7 @@
     (instances
       (project "Flight_Computer_V2"
         (path "/39d7ebb3-b69d-4ae9-8f55-c9acfe77d345/b1bb6dfd-0d07-44b6-b0d1-16713468007b"
-          (reference "U4") (unit 1)
+          (reference "U44") (unit 1)
         )
       )
       (project "avionics_flight_computer"
@@ -735,7 +735,7 @@
     (property "Value" "~" (at 104.14 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 104.14 102.87 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 104.14 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 102.87 0)
@@ -773,7 +773,7 @@
   (symbol (lib_id "power:+3.3V") (at 148.59 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3c48e48-e952-471b-a17c-22aded4e94be)
-    (property "Reference" "#PWR021" (at 148.59 87.63 0)
+    (property "Reference" "#PWR0109" (at 148.59 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 148.59 78.74 0)
@@ -789,7 +789,7 @@
     (instances
       (project "Flight_Computer_V2"
         (path "/39d7ebb3-b69d-4ae9-8f55-c9acfe77d345/b1bb6dfd-0d07-44b6-b0d1-16713468007b"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
       (project "avionics_flight_computer"
@@ -812,7 +812,7 @@
     (property "Value" "TestPoint_Small" (at 109.22 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 105.41 104.14 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 105.41 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 104.14 0)
