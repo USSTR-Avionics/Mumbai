@@ -9,6 +9,8 @@ Welcome to our hardware-based repository, dedicated to providing innovative desi
 
 PDB and GPS copied over from: https://github.com/USSTR-Avionics/PDB and https://github.com/USSTR-Avionics/gps-board
 
+RF board based on OpenLST: https://github.com/OpenLST/openlst-hw
+
 ## Standard and Unified Connector Kit
 Pinout  
 10x2 connector
